@@ -15,7 +15,7 @@ env:
   ECR_REPOSITORY: djangoecs
   ECS_TASK_DEFINITION: ./task-definition.json
   CONTAINER_NAME: djangoecs
-  ECS_SERVICE: djangoecs
+  ECS_SERVICE: djangoecsservice
   ECS_CLUSTER: djangoecscluster
 
 jobs:
