@@ -3,6 +3,7 @@
     "containerDefinitions": [
         {
             "name": "djangoecs",
+            "image": "124355662149.dkr.ecr.ap-northeast-2.amazonaws.com/djangoecs:latest",
             "cpu": 0,
             "portMappings": [
                 {
